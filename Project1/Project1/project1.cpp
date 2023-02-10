@@ -1,11 +1,14 @@
-#include <iostream>
-using namespace std;
-int main() {
-	double A;
-	double B;
-	cin >> A;
-	cin >> B;
-	cout << fixed;
-	cout.precision(9);
-	cout << double(A / B);
+#include<cstdio>
+#define MAX 100
+void sub(int x, int arr[]) {
+	x = 10;
+	arr[0] = 10;
+}
+void main() {
+	int var;
+	int list[MAX];
+	var = 0;
+	list[0] = 0;
+	sub(var, list);
+	printf("var= %d, list[0]= %d", var, list[0]);
 }
